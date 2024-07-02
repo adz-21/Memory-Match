@@ -1,0 +1,106 @@
+body {
+  text-align: center;
+  background-color: #3d2494;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#level-title {
+  font-size: 1.5rem;
+  margin:  5%;
+  color: #FEF2BF;
+  margin-top: 44px;
+  margin-bottom: 30px;
+
+}
+
+.container {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 190px;
+  width: 190px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+#openInstructions, #closeInstructions {
+  background-color:rgb(27, 40, 211);
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+#openInstuctions:hover {
+    background-color: white;
+}
+
+.tab {
+  opacity: 0;
+  position: fixed;
+  background-color: rgb(64, 68, 173);
+  font-size: 0.9rem;
+  line-height: 150%;
+ 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instructions {
+  background-color: rgb(233, 202, 162);
+  width: 600px;
+  text-align: center;
+  z-index: 999;
+}
+
+span {
+  color: brown;
+  font-size: 0.75rem;
+}
+
+.opentab {
+  opacity: 0.925;
+  z-index: 999;
+}
+
